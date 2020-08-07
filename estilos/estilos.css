@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body {
+    background: #fff;
+    font-family: "Open Sans", Sans-serif;
+}
+
+header {
+    background-image: url("../multimedia/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header .inicio img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+header .menu ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: #a0c49a;
+}
+header .menu ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+header .menu a{
+    color: #6c567b;
+    font-style: italic;
+    text-decoration: none;
+}
+
+header .texto{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    font-style: italic;
+}
+
+.main .contenedor{
+    overflow: visible;
+    text-align: center;
+}
+.main .contenedor .foto{
+	margin-top: -60px;
+
+}
+
+.main .contenedor .foto img{
+    width: 300px;
+    height:300px;
+	vertical-align: top;
+	border-radius: 50% ;
+	border: 5px solid rgba(255,255,255,.2);
+}
+
+.main .contenedor .texto{
+	color: #5a5a5a;
+	font-weight: 600;
+	font-size: 1em;
+	line-height: 30px;
+	width: 80%;
+	margin: 30px auto 60px auto;
+}
+.main .contenedor .texto p{
+    margin-bottom: 30px;
+}
+.main .contenedor .texto a{
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    color: #fff;
+    background-color: #c06c84;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.trabajos{
+    background-color: #f8b195;
+}
+
+.trabajos h3{
+    color: #6c567b;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.trabajos .boton{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.trabajos .boton a{
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    color: #fff;
+    background-color: #c06c84;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.contenedorTrabajos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+
+.thumb-item {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    overflow: hidden; }
+
+.thumb-item__info {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    box-sizing: border-box;
+    background-color: #6c567b94;
+    color: #fff;
+    padding: 10px 20px; }
+
+.thumb-item__info h5 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    font-weight: bold; }
+
+.thumb-item__info p {
+    font-size: 12px;
+    margin: 4px 0 14px; }
+
+.thumb-item__info a{
+    text-decoration: none;
+    color:#fff ;
+}
+.thumb-item:hover .thumb-item__info {
+    opacity: 1;
+    bottom: -5px; }
+
+footer{
+    background-color: #f67280;
+    height: 400px;
+    background-image: url(../multimedia/contacto2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .contenedor h3{
+    color: #a0c49a ;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 20px;
+}
+footer .contenedor .formulario input[type="text"], [type="email"], input[type="submit"], textarea{
+    width:100%;
+    padding:10px 10px;
+    margin:10px 0 10px;
+    display:block;
+    font-size: 20px;
+}
+
+footer .contenedor .formulario input[type="submit"]{
+    background-color:#a0c49a ;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+footer .copyright{
+    background-color: #6c567b;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+    margin-top: 15px;
+}
